@@ -7,7 +7,9 @@ import Login from '../pages/Login';
 import Page404 from '../pages/Page404';
 
 export default function Routers() {
-  /* toast.success('Toast'); */
+  /* toast.success('Toast');
+  toast.error('Toast');
+  toast.info('Toast'); */
   return (
     <Routes>
       <Route path="/" element={<PrivateRoute />} />
