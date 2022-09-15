@@ -1,7 +1,19 @@
-/* import * as types from '../types'; */
+import * as types from '../types';
 
-export function cliclaBotao() {
+export function cliclaBotaoRequest() {
   return {
-    type: 'BOTAO_CLICADO',
+    type: types.BOTAO_CLICADO_REQUEST,
+  };
+}
+
+export function cliclaBotaoSuccess() {
+  return {
+    type: types.BOTAO_CLICADO_SUCCESS,
+  };
+}
+
+export function cliclaBotaoFailure() {
+  return {
+    type: types.BOTAO_CLICADO_FAILURE,
   };
 }

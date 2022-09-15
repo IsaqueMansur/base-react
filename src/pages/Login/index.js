@@ -12,7 +12,7 @@ export default function Login() {
 
   function handleClick(e) {
     e.preventDefault();
-    dispatch(exampleActions.cliclaBotao());
+    dispatch(exampleActions.cliclaBotaoRequest());
   }
 
   /* React.useEffect(() => {
